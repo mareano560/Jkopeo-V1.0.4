@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Jkobeo.exe" version="1.0.0.0" publicKeyToken="818bbc93ceea81d3" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Jkobeo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Jkobeo.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Jkobeo.exe" size="7176">
+      <assemblyIdentity name="Jkobeo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>P9O6r3+kTXslQy904vgbIkxw1oR7YqDX7Na4e4rOe3k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Jkobeo.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-5L7QKVC\Majed Qandel" issuerKeyHash="32098cb4398d25215288711fef67cc75cbc114c6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>TUvOf2+zEDCrNyYbGtNciipM7gpD4+9IsbR307Muwgg=</DigestValue></Reference></SignedInfo><SignatureValue>tfEyti/AouOspsB1FhHd5HNj2reXC+W0rE76A84gwVnohO3Lq1AbvPUNc5+AI7JLa0R9Vec+txkhvLRoQ9cnXne3Z1HclMfXCEOE9Vc31h80DQnEv/wjfgb5wgEVeSK0r2SLCdKX740V19SxXiisCILcGg197M4A8tVyI6fVXlY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>v1DGZ1o+3j5UVx0i0s6vnS/mxtatreGkEZ6n15BQnNOPqdBGtzjUWMz8Vm+fmmiZw5hkbS7BJ61aiDkWZGxWQvi/rCtD0QuJAvt1q9COlgFYFemxTGaAP/Gwwf11vB1CC19HNHY7667Ugtpp88dp23cobyup2lkZNGKoyG7MexE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="08c22eb3d377b4b148efe3430aee4c2a8a5cd31a1b2637ab3010b36f7fce4b4d" Description="" Url=""><as:assemblyIdentity name="Jkobeo.exe" version="1.0.0.0" publicKeyToken="818bbc93ceea81d3" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-5L7QKVC\Majed Qandel</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>uHi699bQEfUCoYHQNif6IWAethmoowo5CMoRsHkpnuE=</DigestValue></Reference></SignedInfo><SignatureValue>pDFJEdBFJFcw0SUMBRgifWIZetoxOnsGYTMwTqTEuiEPsTZilDUSsIf3ftyMu/N5oWqBY7+SQTvaCLchzmDoqTpH7UqFMIR4JdwD62BhsoQZarn2I5g8dH6SR+ninCCGQcMSJySZkmtWm+mKnEughw1P4svTIZE7tMdpFXMrF4I=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>v1DGZ1o+3j5UVx0i0s6vnS/mxtatreGkEZ6n15BQnNOPqdBGtzjUWMz8Vm+fmmiZw5hkbS7BJ61aiDkWZGxWQvi/rCtD0QuJAvt1q9COlgFYFemxTGaAP/Gwwf11vB1CC19HNHY7667Ugtpp88dp23cobyup2lkZNGKoyG7MexE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICCTCCAXKgAwIBAgIQV9tq87WTAKJEaSqWwFMqKjANBgkqhkiG9w0BAQsFADBDMUEwPwYDVQQDHjgARABFAFMASwBUAE8AUAAtADUATAA3AFEASwBWAEMAXABNAGEAagBlAGQAIABRAGEAbgBkAGUAbDAeFw0yNDA4MjgxMzAyNDhaFw0yNTA4MjgxOTAyNDhaMEMxQTA/BgNVBAMeOABEAEUAUwBLAFQATwBQAC0ANQBMADcAUQBLAFYAQwBcAE0AYQBqAGUAZAAgAFEAYQBuAGQAZQBsMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/UMZnWj7ePlRXHSLSzq+dL+bG1q2t4aQRnqfXkFCc04+p0Ea3ONRYzPxWb5+aaJnDmGRtLsEnrVqIORZkbFZC+L+sK0PRC4kC+3Wr0I6WAVgV6bFMZoA/8bDB/XW8HUILX0c0djvrrtSC2mnzx2nbdyhvK6naWRk0YqjIbsx7EQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAKUy6V2vRA1414PQd4B6OLxQWwtkJLTqUm49w+jp+Czcc8ItuX8YbLF4Rx+8gULBcXsMjwHYzus0tu/NulobIwNgWFTArJUWnGKNNt4hX3EwN2kA1r7MEyLxTZrMUZYvxfkXAJOcjE2yqkBR9jdXlhdlFWsh3D/kDW3JTdU1eUi/</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
